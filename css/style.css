@@ -14,12 +14,31 @@ body {
     flex-basis: 100vh;
 }
 
+.header {
+    height: 620px;
+    background-color: yellowgreen;
+}
+
 .flex {
     display: flex;
 }
 
-.flex .container .column {
-    height: 80vh;
+.flex.header.row {
+    height: 100px;
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: flex-start;
+}
+
+.menu {
+    align-self: center;
+
+}
+
+.container {
+    height: 3800px;
 }
 
 .column {
@@ -31,12 +50,15 @@ body {
 }
 
 .section {
-    flex-basis: 50px;
+    flex-basis: 950px;
     background-color: aquamarine;
     border: 1px solid black;
     padding: 0px 20vh;
 }
 
-.flex .header .row {
-    height: 20vh;
+
+
+.footer {
+    height: 670px;
+    background-color: cadetblue;
 }

@@ -31,16 +31,25 @@ header {
     flex-direction: row;
 }
 
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 .flex.header.row {
     height: 100px;
     justify-content: space-between;
 }
 
-.flex.content.column {
+.content {
     height: 200px;
     padding: 100px 200px;
     align-items: center;
     text-align: center;
+
 
 }
 
@@ -68,7 +77,11 @@ header {
     background-color: aquamarine;
     border: 1px solid black;
     padding: 0px 20vh;
+    align-items: center;
+    justify-content: center;
 }
+
+
 
 
 

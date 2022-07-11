@@ -16,7 +16,7 @@ body {
 
 header {
     height: 620px;
-    background-color: yellowgreen;
+    background-color: #3161E0;
 }
 
 .flex {
@@ -37,6 +37,11 @@ header {
 
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+.flex.section.row-reverse,
+.flex.section.column-reverse {
+    background-color: #F6F6F6;
 }
 
 .flex.navigation.row {
@@ -75,7 +80,6 @@ header {
 
 .section {
     flex-basis: 950px;
-    background-color: aquamarine;
     border: 1px solid black;
     padding: 100px 200px;
     align-items: center;
